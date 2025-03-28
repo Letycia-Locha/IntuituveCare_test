@@ -44,3 +44,5 @@ postgres_data/
 
 # CSVs de demonstrações contábeis (não versionar)
 content/banco_de_dados/demonstracoes_contabeis/**/*.csv
+content/banco_de_dados/demonstracoes_contabeis/2023/*.csv
+content/banco_de_dados/demonstracoes_contabeis/2024/*.csv
