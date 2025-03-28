@@ -1,0 +1,43 @@
+# Ambiente Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Arquivos de log e temporários
+*.log
+*.tmp
+*.bak
+
+# VSCode e IDEs
+.vscode/
+.idea/
+*.code-workspace
+
+# Jupyter Notebooks Checkpoints
+.ipynb_checkpoints/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Frontend (Node/Vite)
+node_modules/
+dist/
+*.local
+
+# Arquivos de ambiente (caso venham a existir)
+.env
+.env.*
+
+# Docker volumes e dados locais
+postgres_data/
+*.pid
+
+# Arquivos compactados
+*.tar.gz
+
+# Outros arquivos locais ou temporários
+*.swp
+*.swo

@@ -1,0 +1,18 @@
+version: "3.9"
+
+services:
+  postgres:
+    image: postgres:13
+    container_name: postgres_teste_intuitive
+    restart: always
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: intuitive
+      POSTGRES_PASSWORD: intuitive
+      POSTGRES_DB: teste_intuitive
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:
