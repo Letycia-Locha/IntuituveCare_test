@@ -41,3 +41,6 @@ postgres_data/
 # Outros arquivos locais ou temporários
 *.swp
 *.swo
+
+# CSVs de demonstrações contábeis (não versionar)
+content/banco_de_dados/demonstracoes_contabeis/**/*.csv
